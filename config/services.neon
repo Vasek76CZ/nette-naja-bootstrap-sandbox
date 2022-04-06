@@ -1,0 +1,5 @@
+services:
+	- App\Router\RouterFactory::createRouter
+	- App\Models\UserModel
+	- App\Forms\FormFactory
+	- App\Forms\AccountCreateFormFactory
